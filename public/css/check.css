@@ -1,0 +1,59 @@
+.boxes {
+    margin: auto;
+    padding: 50px;
+    background: #484848;
+  }
+table{
+    width: 100%;
+}
+thead{
+    text-align: start;
+}
+  /*Checkboxes styles*/
+  input[type="checkbox"] { display: none; }
+  
+  input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    color: rgb(255, 247, 247);
+    cursor: pointer;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  .label-size{
+      display: none;
+  }
+  input[type="checkbox"] + label:last-child {
+      margin-top: 0;
+      margin-left: 10px; 
+      margin-right: 5px;
+  }
+  input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(228, 228, 228);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .7;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+  }
+  
+  input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-color: rgb(22, 211, 5);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

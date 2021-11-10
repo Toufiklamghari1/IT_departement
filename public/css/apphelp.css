@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Marck+Script&family=Merienda:wght@700&family=Nanum+Pen+Script&family=Parisienne&family=Unna:ital,wght@1,700&display=swap');
+.card{
+    margin-top: 40px;
+}
+.app-name{
+    color: rgb(47, 47, 47) !important;
+    font-size: 2em !important;
+    font-family: 'Merienda', cursive;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); 
+}
+.app-name-1{
+    color: rgb(80, 78, 78) !important;
+    font-size: 1em !important;
+    font-family: 'Merienda', cursive;
+}
+*:focus {
+    outline: none;
+}
+.grade{ 
+    margin-top: -4px;
+    color: white;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    background-color: #4d4b49;
+}
+#grade *{
+    display: block;
+}
+.menu-bar{
+    list-style-type: none;
+}
+.menu-bar li{
+    padding: 20px;
+    text-align: center;
+}
+.menu-bar li a{
+    color: white;
+    display: grid;
+}
+.menu-bar li i{
+    font-size: 26px;
+}
+.menu-bar li a:hover{
+    color: greenyellow;
+}

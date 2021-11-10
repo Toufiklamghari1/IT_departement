@@ -1,0 +1,24 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Marck+Script&family=Merienda:wght@700&family=Parisienne&display=swap');
+*/
+.cont-pd{
+    margin-top: 5em;
+}
+.font-home{
+    color: rgb(253, 178, 4) !important;
+    font-size: 4em;
+    font-family: 'Parisienne', cursive;
+}
+
+.text-block {
+    position: absolute;
+    padding-top: 20%;
+    font-family: 'Merienda', cursive;
+    font-size: 2.5em;
+    color: white;
+  }
+.max-w-h{
+    width:100%;
+    height:100%;
+}

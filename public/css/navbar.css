@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Marck+Script&family=Merienda:wght@700&family=Nanum+Pen+Script&family=Parisienne&family=Unna:ital,wght@1,700&display=swap');
+.navbar{
+    width: 100%;
+    height: 60px;
+}
+.log-out{
+    position: relative;
+    margin-right: 15px;
+    margin-left: auto;
+}
+.log-out:hover{
+    color: aliceblue;
+}
+.app-name{
+    color: rgb(47, 47, 47) !important;
+    font-size: 2em !important;
+    font-family: 'Merienda', cursive;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); 
+}
+.app-name-1{
+    color: rgb(80, 78, 78) !important;
+    font-size: 1em !important;
+    font-family: 'Merienda', cursive;
+}
+*:focus {
+    outline: none;
+}
+#sidebarCollapse{
+    font-size: 25px;
+    height: 20px;
+    width: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: rgb(98, 98, 98);
+}

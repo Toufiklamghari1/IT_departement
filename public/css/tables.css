@@ -1,0 +1,92 @@
+
+.w-1{
+  max-width:30px !important;
+}
+.result-msg{
+  height: 30px !important;
+}
+.font{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+  }
+  .card{
+      background-color: black;
+      color: white;
+  }
+  table{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: auto;
+  }
+  .input-bg{
+    opacity: 1;
+  }
+  thead{
+    width: 100%;
+      color: rgb(139, 139, 139) !important;
+      background-color: rgb(46, 45, 45) !important;
+  }
+  tbody{
+    color:white !important;
+  }
+  a:hover{
+    color:white;
+  
+  }
+  .p-action{
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+  }
+  .modal-content{
+    background-color: rgb(77, 75, 73) !important;
+  }
+  .active-tab{
+    color: white;
+    font-size: 20px;
+    margin-top: 0px !important;
+    font-family: 'Libre Baskerville', serif;
+    cursor:pointer; 
+  }
+  .left-right-buttons {
+      margin-top: 0px !important;
+      height: 45px;
+      width: 65px;
+      z-index: 5;
+      position: relative;
+    }
+  .btn-left{
+    padding-left: 15px !important;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin: 0px -20px 0 0 !important;
+  }
+  .p-save{
+    padding-left: 16px !important;
+  }
+  .p-edit{
+    padding-left: 14px !important;
+  }
+  .btn-right{
+    padding-right: 15px !important;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin: 0px 0 0 -20px !important;
+  }
+  td{
+    
+    font-size: 16px !important;
+    padding: 4px !important;
+  }
+  .btn-center{
+    margin: 0px !important;
+    font-size: 25px !important;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    z-index: 10;
+    position: relative;
+  }
+  .hidden{
+    display: none;
+  }
